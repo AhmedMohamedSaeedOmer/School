@@ -12,7 +12,7 @@ namespace School.Data
 
         public DbSet<Subject> subjects { get; set; }
 
-        public DbSet<Teacher> teachers { get; set; }
+        public DbSet<Teacher>? teachers { get; set; }
 
         public DbSet<Student>students { get; set; }
 
